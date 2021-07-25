@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    color:#000000;
+}
+.main {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+.wrapper {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.tpad_space{
+  padding-top:100px;
+}
+
+.picture{
+      margin: auto 1.5rem auto 0;
+      width: 85%;
+      padding-bottom: 85%;
+      height: 0;
+      position: relative;
+      overflow: hidden;
+      border-radius: 100%;
+      background-image: url(https://i.ibb.co/yN2zkyG/favpng-cat-user-profile-clip-art-vector-graphics.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      box-shadow: 0em 1.2em 1.2em -0.5em rgba(0,0,0,0.5);
+    }
+
+#contest_name{
+        color:#000000;
+        height: 100px;
+        position: relative;
+        width: 100%;
+        text-align: center;
+}
+
+
+#profile{
+        color:#000000;
+        text-align: right;
+}
+
+#participant_name{
+        color:#000000;
+        text-align: center;
+}
+
+
+#rank{
+        color:#000000;
+        text-align: left;
+}
+
+/* Align center element */
+
+.f_dv {
+    display: table;
+    text-align: center;
+}
+.f_dv_md {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+}
